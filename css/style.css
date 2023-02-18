@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap'); 
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Allura', cursive;
+}
+
+body {
+    min-width: 720px;
+}
+
+header {
+    display: none;
+}
+
+#welcome {
+    background: url(../image/1.jpeg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    opacity: rgb(52, 8, 8);
+}
+
+.welcome-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.welcome-other {
+    padding-top: 120px;
+    text-align: center;
+}
+
+.welcome-h1 {
+    color: white;
+    text-align: center;
+    font-size: 43px;
+}
+
+.cook-hr{
+    display: flex;
+    margin:  0 500px;
+}
+
+.cook-flex {
+    margin: 100px 0;
+    display: flex;
+}
+
+.cook-block {
+    width: 350px;
+    height: 350px;
+    transform: rotate(3deg);
+    background-color: #ffffff;
+    border: 1px solid #00000020;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.cook-block1 {
+    width: 350px;
+    height: 350px;
+    transform: rotate(-3deg);
+    background-color: #ffffff;
+    border: 1px solid #00000020;
+    position: absolute;
+    z-index: 1;
+}
+
+.cook-chef {
+    width: 310px;
+    height: 310px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #00000020;
+    position: relative;
+    margin: 0 0;
+    z-index: 2;
+}
+
+.cook-chef p {
+    font-size: 12px;
+    opacity: 0.6; 
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.cook-chef h3{
+    text-align: center;
+    opacity: 0.8;
+    margin: 10px 0;
+}
+
+.cook-h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.cook-cantarella hr {
+    width: 100px;
+    height: 0.1px;
+    background-color: rgb(0, 0, 0);
+    margin: 5px;
+}
+
+.fa {
+    color: brown;
+}
+
+span {
+    color: brown;
+}
+
+.cook-cantarella {
+    margin-top:100px ;
+    display: block;
+}
+
+.cook-img {
+    width: 310px;
+    height: 170px;
+}
+
+.cook-card {
+    display: flex;
+}
+
+.one {
+    width: 320px;
+    height: 325px;
+    background-color: rgb(255, 255, 255);
+}
+
+.two {
+    width: 325px;
+    height: 310px;
+    background-color: rgb(255, 255, 255);
+}
+
+.three {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu-card {
+    width: 340px;
+    height: 570px;
+    position: relative;
+    box-shadow: 1px 1px 5px 5px rgb(240, 239, 239);
+}
+
+.menu-flex {
+    display: flex;
+}
+
+.menu-h1 {
+    color: rgb(255, 119, 0);
+    text-align: center;
+    padding: 15px 0;
+}
+
+.menu-hr {
+    color: rgb(255, 255, 255);
+    height: 2px;
+    width: 250px;
+}
+
+.menu-img {
+    border-radius: 150px;
+    width: 80px;
+    height: 80px;
+}
+
+.menu-foods {
+    margin: 30px 20px;
+}
+
+.menu-text {
+    margin: 0 20px;
+}
+
+.menu-p {
+    opacity: 0.5;
+    font-size: 10.5px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.menu-text h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+}
+
+.menu-cards {
+    margin-top:140px ;
+}
+
+.menu-food {
+    display: flex;
+}
+
+.food {
+    width: 300px;
+    height: 530px;
+    top: 20px;
+    bottom: 20px;
+}
+
+.dessert-card {
+    background-color: rgb(45, 43, 43);
+    width: 250px;
+    height: 250px;
+}
+
+.dessert-img {
+    width: 250px;
+}
+
+.dessert-p {
+    font-size: 11px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.dessert-h1 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.dessert-text {
+    margin: 20px;
+}
+
+.dessert-flex {
+    display: flex;
+    margin-top: 50px;
+}
+
+.dessert-h1 {
+    color: white;
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+.dessert-p {
+    opacity: 0.2;
+    color: white;
+}
+
+.review-h2 {
+    margin: 30px 350px;
+}
+
+
+.review-text {
+    display: flex;
+    margin: 0 230px;
+}
+
+.review-true i {
+    font-size: 0.9em;
+}
+
+.review-true p {
+    color: #CC580C;
+    font-size: 14px;
+}
+
+.box {
+    margin-top: 40px ;
+    margin-left: 500px;
+}
+
+.review-true{
+    margin-left: 900px;
+}
+
+.review-other i {
+    color: #CC580C;
+}
+
+.review-flex {
+    margin-top: 40px;
+}
+
+.review-p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.review-pa {
+    margin: 0 0;
+}
+
+.review-pe {
+    height: 20px;
+    margin: 0 ;
+}
+
+.input-flex {
+    display: flex;
+    margin: 0 170px;
+}
+
+.input-flex input {
+    font-family: 'Quicksand', sans-serif;
+    width: 400px;
+    height: 35px;
+}
+
+.center-last {
+    margin: 20px 183px;
+}
+
+.input-last {
+    width: 840px;
+    height: 100px;
+}
+
+.center {
+    margin: 40px 0;
+}
+
+.btn {
+    background-color: rgb(19, 18, 18);
+    border: none;
+    color: white;
+    height: 40px;
+    width: 200px;
+    margin: 0 183px;
+}
+
+.footer-i {
+    background-color: #A3460A;
+}
+
+.footer-flex {
+    display: flex;
+    margin: 15px 400px;
+}
+
+.footer-container {
+    padding: 40px 0;
+}
+
+.footer-flex i {
+    color: white;
+    margin: 15px;
+}
+
+
+.btn-container i {
+    font-size: 1.5em;
+}
+
+.btn-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: white;
+    border: none;
+    display: inline;
+    margin: -100px 580px;
+    display: inline-block;
+}
+
+.btn-container, a:hover {
+    transform: scale(1.1);
+}
+
+footer h3 {
+    font-size: 10px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer {
+    background-color: #CC580C;
+}
+
+@media (max-width:720px) {
+
+    body {
+        max-width: 720px;        
+    }
+
+    header {
+        display: flex;
+        background-color: #282828;
+        padding: 30px 0;
+        position: absolute;
+        margin-top: 50px;
+        position: sticky;
+        top: 0;
+    }
+
+    nav {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      row-gap: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-family: "Noto", sans-serif;
+      font-weight: 600;
+      margin: 0 10px;
+    }
+    nav div:hover {
+      transition: all 0.8s ease 0s;
+      background-color: orangered;
+    }
+
+    .cook-hr {
+        display: none;
+    }
+
+    .cook-hr hr {
+        width: 200px;
+        height: 0.1px;
+        background-color: rgb(0, 0, 0);
+        margin: 5px;
+    }
+
+    .cook-flex {
+        flex-direction: column-reverse;
+    }
+
+    .cook-card {
+        margin: 20px 0;
+    }
+
+    .menu-card {
+        margin: 20px auto;
+    }
+
+    .menu-flex {
+        flex-direction: column-reverse;
+    }
+
+    .dessert-flex{
+        flex-direction: column-reverse;
+    }
+
+    .dessert-card {
+        margin: 20px auto;
+    }
+
+    .review-h2 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .review-true {
+        margin: 50px auto;
+        margin-left: 400px;
+    }
+
+    .box {
+        margin: 200px auto;
+        margin-left: 400px;
+    }
+
+    .review-h2 {
+        
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .review-true p {
+        font-family: 'Quicksand', sans-serif;}
+
+    .inputbox input {
+        font-family: 'Quicksand', sans-serif;
+        width: 350px;
+        height: 35px;
+        margin: 20px 0;
+    }
+
+    .input-last {
+        width: 350px;
+    }
+
+    .menu-h1 {
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    button {
+        
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .footer-flex {
+        margin: 0 auto;
+    }
+
+    .footer-container {
+    padding: 30px 200px;
+    }
+
+    .btn-container {
+        margin: 0 330px  ;
+        margin-top: -100px;
+    }
+
+    .input-flex {
+        flex-direction: column-reverse;
+    }
+}
